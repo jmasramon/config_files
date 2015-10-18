@@ -1,0 +1,44 @@
+
+# ls alias for color-mode
+alias ls='ls -G'
+alias hg='history | grep'
+alias cdev='cd ~/dev/'
+alias cq='cd ~/dev/js/qumram/qumram_simplest/scrum_cards'
+
+alias gp='git push origin master'
+alias gpl='git pull origin master'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gac='git commit -am'
+alias gd='git diff'
+alias gl='git log --topo-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
+alias glg='git log --topo-order --all --graph --name-status --format="%C(green)%H%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
+
+alias vau='vagrant up'
+alias vad='vagrant destroy'
+alias vap='vagrant provision'
+alias vas='vagrant ssh'
+alias kit='kitchen test --destroy=never'
+alias kiv='kitchen verify'
+alias kic='kitchen converge'
+alias kil='kitchen login default-ubuntu-1204'
+
+# up 'n' folders
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# grep with color
+alias grep='grep --color=auto'
+
+# refresh shell
+alias reload='source ~/.bashrc'
+
+alias amazon='ssh -i ~/myDocumenta.pem ubuntu@54.194.21.95'
+alias dev3='ssh -i ~/myDocumenta.pem ubuntu@54.194.38.41'
+
+alias p='python3'
+alias cdf='cd ~/functionalProgramming/'
+
